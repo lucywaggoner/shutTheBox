@@ -1,0 +1,118 @@
+#wrapper {
+    width: 1300px;
+    margin-left:  auto;
+    margin-right: auto;
+    background-image: url("../images/background.jpg");
+    padding: 20px;
+    height: 650px;
+    text-align: center;
+}
+
+header {
+    width: 403px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+#button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.resetButton {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.endGameButton {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tiles {
+    width: 1280px;
+    padding:10px;
+    text-align: center;
+}
+
+.numbers {
+    width: 120px;
+    height: 180px;
+    padding: 5px;
+} 
+
+.die {
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+#scoreboard {
+    position: absolute;
+    text-align: center;
+    margin-left: 100px;
+    width: 300px;  
+    height: 100px; 
+    color: white;
+    background-color: black;
+}
+
+#totalScoreboard {
+    position: absolute;
+    text-align: center;
+    margin-left: 500px;
+    width: 300px;  
+    height: 100px; 
+    color: white;
+    background-color: red;
+}
+
+#currentTotalBoard {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 900px;
+}
+
+#scoreParagraph {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#totalScoreParagraph {
+    text-align: center;
+    font-size: 25px;
+    font-color: lightgray;
+    margin-top: 10px;
+}
+
+#currentScoreParagraph {
+    text-align: center;
+    font-size: 30px;
+}
+
+.spin {
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+.spinLong {
+    transform: rotate(720deg);
+    transition: 1s;
+}
