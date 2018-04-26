@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shut the Box</title>
+    <link rel="stylesheet" type="text/css" href="css/stbStyles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="stbScripts.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="images/title.JPG" class="title" id="title">
+        </header>
+        <div id="tiles">
+            <img src="images/tiles/1.jpg" class="numbers" id="1" onclick="select(1)">
+            <img src="images/tiles/2.jpg" class="numbers" id="2" onclick="select(2)">
+            <img src="images/tiles/3.jpg" class="numbers" id="3" onclick="select(3)">
+            <img src="images/tiles/4.jpg" class="numbers" id="4" onclick="select(4)">
+            <img src="images/tiles/5.jpg" class="numbers" id="5" onclick="select(5)">
+            <img src="images/tiles/6.jpg" class="numbers" id="6" onclick="select(6)">
+            <img src="images/tiles/7.jpg" class="numbers" id="7" onclick="select(7)">
+            <img src="images/tiles/8.jpg" class="numbers" id="8" onclick="select(8)">
+            <img src="images/tiles/9.jpg" class="numbers" id="9" onclick="select(9)">
+        </div>
+        <div id="leftside">
+            <button onclick="roll()" id="button">Roll</button>
+        </div>
+        <div id="dice">
+            <img src="images/dice1.jpg" class="die" id="die1">
+            <img src="images/dice1.jpg" class="die" id="die2">
+        </div>
+        <div id="reset">
+            <button class="resetButton" onclick="reset()">Reset</button>
+        </div>
+        <div id="endGame">
+            <button class="endGameButton" onclick="endGame()">End Game</button>
+        </div>
+        <div id="scoreboard">
+            <p id="scoreParagraph">Score P1: <span id="p1Games">45<span></p>
+            <p id="scoreParagraph">Score P2: <span id="p2Games">45<span></p>
+
+        </div>
+        <div id="totalScoreboard">
+            <p id="totalScoreParagraph">Total P1: <span id="totalscore1">0<span></p>
+            <p id="totalScoreParagraph">Total P2: <span id="totalscore2">0<span></p>
+        </div>
+        <div id="currentTotalBoard">
+            <p id="currentScoreParagraph">Current Total: <span id="currentTotal">0</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
